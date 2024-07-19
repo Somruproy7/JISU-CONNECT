@@ -61,8 +61,6 @@ jisu-connect-w
 │   │   └── AndroidManifest.xml  # Manifest file
 ├── build.gradle
 ├── settings.gradle
-└── ...                   # Other configuration files
-```
 
 ## Features
 
