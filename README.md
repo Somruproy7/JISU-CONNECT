@@ -43,22 +43,39 @@ To set up the project, follow these steps:
 
 ```plaintext
 jisu-connect-w
+├── LICENSE                      # License file
+├── README.md                    # Project documentation
 ├── app
 │   ├── src
+│   │   ├── androidTest
+│   │   │   └── java
+│   │   │       └── com
+│   │   │           └── example
+│   │   │               └── jisuconnect
+│   │   │                   └── ExampleInstrumentedTest.java
 │   │   ├── main
 │   │   │   ├── java
 │   │   │   │   └── com
 │   │   │   │       └── example
-│   │   │   │           └── jisuconnectw
+│   │   │   │           └── jisuconnect
+│   │   │   │               ├── BuildConfig.java
+│   │   │   │               ├── DashboardActivity.java
+│   │   │   │               ├── LoginActivity.java
+│   │   │   │               ├── MainActivity.java
+│   │   │   │               ├── SignupActivity.java
+│   │   │   │               ├── User.java
 │   │   │   │               ├── activities    # Activity classes
 │   │   │   │               ├── models        # Model classes
 │   │   │   │               ├── utils         # Utility classes
 │   │   │   │               └── ...           # Other packages
 │   │   │   ├── res
 │   │   │   │   ├── layout    # Layout XML files
+│   │   │   │   │   ├── activity_dashboard.xml
+│   │   │   │   │   ├── activity_login.xml
+│   │   │   │   │   ├── activity_main.xml
+│   │   │   │   │   ├── activity_signup.xml
 │   │   │   │   ├── values    # Values (strings, colors, etc.)
-│   │   │   │   └── ...       # Other resources
-│   │   └── AndroidManifest.xml  # Manifest file
+│   │   │   └── AndroidManifest.xml  # Manifest file
 ├── build.gradle
 ├── settings.gradle
 ```
